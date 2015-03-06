@@ -1,0 +1,19 @@
+body{
+    background: #edf2f4;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.card{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
